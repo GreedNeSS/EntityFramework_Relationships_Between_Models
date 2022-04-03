@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Foreign_Key_Setup.Modeles
+namespace Foreign_Key_Setup.Models
 {
     internal class Company
     {

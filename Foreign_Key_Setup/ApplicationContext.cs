@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Foreign_Key_Setup.Modeles;
+using Foreign_Key_Setup.Models;
 
 namespace Foreign_Key_Setup
 {
@@ -22,6 +22,15 @@ namespace Foreign_Key_Setup
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=Employee.db");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Company)
+                .WithMany(c => c.Users)
+                .HasForeignKey(u => u.CompanyTitle)
+                .HasPrincipalKey(c => c.Title);
         }
     }
 }
