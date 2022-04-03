@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FOREIGN_KEY_And_Navigation_Property.Modeles
+namespace FOREIGN_KEY_And_Navigation_Property.Models
 {
     internal class User
     {

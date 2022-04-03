@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using FOREIGN_KEY_And_Navigation_Property.Modeles;
+using FOREIGN_KEY_And_Navigation_Property.Models;
 
 namespace FOREIGN_KEY_And_Navigation_Property
 {
