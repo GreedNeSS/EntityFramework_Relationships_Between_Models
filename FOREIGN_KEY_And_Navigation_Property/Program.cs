@@ -1,5 +1,5 @@
 ﻿using FOREIGN_KEY_And_Navigation_Property;
-using FOREIGN_KEY_And_Navigation_Property.Models;
+using FOREIGN_KEY_And_Navigation_Property.Modeles;
 
 Console.WriteLine("***** FOREIGN KEY And Navigation Property *****");
 

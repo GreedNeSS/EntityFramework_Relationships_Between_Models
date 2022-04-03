@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using FOREIGN_KEY_And_Navigation_Property.Modeles;
+using Foreign_Key_Setup.Modeles;
 
-namespace FOREIGN_KEY_And_Navigation_Property
+namespace Foreign_Key_Setup
 {
     internal class ApplicationContext: DbContext
     {
