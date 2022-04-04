@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreign_Key_Setup", "Foreig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeDelete", "CascadeDelete\CascadeDelete.csproj", "{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EagerLoading", "EagerLoading\EagerLoading.csproj", "{7A19CDF5-9BE6-446E-9541-CB23ECE4F9BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A19CDF5-9BE6-446E-9541-CB23ECE4F9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A19CDF5-9BE6-446E-9541-CB23ECE4F9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A19CDF5-9BE6-446E-9541-CB23ECE4F9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A19CDF5-9BE6-446E-9541-CB23ECE4F9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
