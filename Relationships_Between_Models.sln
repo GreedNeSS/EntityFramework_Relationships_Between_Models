@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOREIGN_KEY_And_Navigation_Property", "FOREIGN_KEY_And_Navigation_Property\FOREIGN_KEY_And_Navigation_Property.csproj", "{72C9A2EB-ABAD-4C82-ACC6-D4E9A23C485B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOREIGN_KEY_And_Navigation_Property", "FOREIGN_KEY_And_Navigation_Property\FOREIGN_KEY_And_Navigation_Property.csproj", "{72C9A2EB-ABAD-4C82-ACC6-D4E9A23C485B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreign_Key_Setup", "Foreign_Key_Setup\Foreign_Key_Setup.csproj", "{19185DD1-B418-461D-8E8E-979E29C378C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreign_Key_Setup", "Foreign_Key_Setup\Foreign_Key_Setup.csproj", "{19185DD1-B418-461D-8E8E-979E29C378C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadeDelete", "CascadeDelete\CascadeDelete.csproj", "{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{19185DD1-B418-461D-8E8E-979E29C378C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19185DD1-B418-461D-8E8E-979E29C378C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19185DD1-B418-461D-8E8E-979E29C378C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20CC822-C21C-4BD3-8F89-FC81A95E96EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
