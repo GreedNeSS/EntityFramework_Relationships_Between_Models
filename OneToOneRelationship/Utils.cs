@@ -63,7 +63,7 @@ namespace OneToOneRelationship
 
         public static void DeletionExample(string login)
         {
-            Console.WriteLine("\n=> DelitionExample():\n");
+            Console.WriteLine("\n=> DeletionExample():\n");
 
             using (ApplicationContext db = new ApplicationContext())
             {
