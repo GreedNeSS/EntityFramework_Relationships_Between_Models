@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneToManyRelationship", "On
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Many-To-ManyRelationship_Simple", "Many-To-ManyRelationship_Simple\Many-To-ManyRelationship_Simple.csproj", "{8FD7796C-FCB2-408D-88B6-16A2F7328223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Many_To_ManyRelationship_CreateIntermediateTable", "Many_To_ManyRelationship_CreateIntermediateTable\Many_To_ManyRelationship_CreateIntermediateTable.csproj", "{470FA471-556C-4426-A15D-9D052EBF8202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Many_To_ManyRelationship_CreateIntermediateTable", "Many_To_ManyRelationship_CreateIntermediateTable\Many_To_ManyRelationship_CreateIntermediateTable.csproj", "{470FA471-556C-4426-A15D-9D052EBF8202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexTypes", "ComplexTypes\ComplexTypes.csproj", "{E4798F1B-0060-472E-AA76-1D88A7A66F6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{470FA471-556C-4426-A15D-9D052EBF8202}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{470FA471-556C-4426-A15D-9D052EBF8202}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{470FA471-556C-4426-A15D-9D052EBF8202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4798F1B-0060-472E-AA76-1D88A7A66F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4798F1B-0060-472E-AA76-1D88A7A66F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4798F1B-0060-472E-AA76-1D88A7A66F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4798F1B-0060-472E-AA76-1D88A7A66F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
